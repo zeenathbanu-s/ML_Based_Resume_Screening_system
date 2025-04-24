@@ -32,6 +32,30 @@ I used a dataset with many resumes. Each resume was already labeled with a job c
 4. **Train models** to learn and predict categories
 5. **Check accuracy** of the models
 6. **Show results** using pie charts and bar graphs
+  
+🧠 Algorithms Used:
+K-Nearest Neighbors (KNN)
+
+A classification algorithm that finds the most similar resumes (neighbors) and uses them to guess the category of a new resume.
+
+🛠️ Techniques Used:
+TF-IDF Vectorization
+
+Converts resume text into numbers based on word importance.
+
+Helps the model understand which words are common vs. unique.
+
+Label Encoding
+
+Converts job category names (like ‘Data Science’, ‘HR’) into numbers so the model can process them.
+
+One-vs-Rest (OvR) Strategy
+
+Used with KNN to handle multiple resume categories (multi-class classification).
+
+It creates one classifier per category.
+
+
 
 ## 📊 What did I visualize?
 - A **bar chart** to show how many resumes are in each category
